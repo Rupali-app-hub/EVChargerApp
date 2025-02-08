@@ -2,6 +2,11 @@
 import {StyleSheet} from "react-native"
 
 export const styles = StyleSheet.create({
+    barContainer:{
+      flexDirection: 'row', alignItems: 'center', backgroundColor: '#222', borderRadius: 5, paddingHorizontal: 10, margin:20 
+    },
+    imgStyle:{ width: 26, height: 26, marginRight: 10, borderRadius: 13},
+    textStyle:{flex: 1, color: '#fff', paddingVertical: 10},
     container: { flex: 1 },
     searchBar: {
       backgroundColor: '#222',
